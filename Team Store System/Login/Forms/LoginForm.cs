@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Login.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -27,6 +28,8 @@ namespace Login
                 if(username == "admin" && password == "admin")
                 {
                     this.Hide();
+                    DashboardForm dashboardForm = new DashboardForm();
+                    dashboardForm.ShowDialog();
                 }
                 else
                     MessageBox.Show("Wrong Password or Username","Error",MessageBoxButtons.OK,MessageBoxIcon.Error); 

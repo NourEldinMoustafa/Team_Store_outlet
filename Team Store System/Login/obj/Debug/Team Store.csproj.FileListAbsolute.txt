@@ -8,3 +8,15 @@ D:\Freelancing\Team Store System\Login\obj\Debug\Team Store.csproj.GenerateResou
 D:\Freelancing\Team Store System\Login\obj\Debug\Team Store.csproj.CoreCompileInputs.cache
 D:\Freelancing\Team Store System\Login\obj\Debug\Login.exe
 D:\Freelancing\Team Store System\Login\obj\Debug\Login.pdb
+D:\Freelancing\Team_Store_outlet\Team Store System\Login\bin\Debug\Login.exe.config
+D:\Freelancing\Team_Store_outlet\Team Store System\Login\bin\Debug\Login.exe
+D:\Freelancing\Team_Store_outlet\Team Store System\Login\bin\Debug\Login.pdb
+D:\Freelancing\Team_Store_outlet\Team Store System\Login\obj\Debug\Team Store.csproj.AssemblyReference.cache
+D:\Freelancing\Team_Store_outlet\Team Store System\Login\obj\Debug\Login.LoginForm.resources
+D:\Freelancing\Team_Store_outlet\Team Store System\Login\obj\Debug\Login.Properties.Resources.resources
+D:\Freelancing\Team_Store_outlet\Team Store System\Login\obj\Debug\Team Store.csproj.GenerateResource.cache
+D:\Freelancing\Team_Store_outlet\Team Store System\Login\obj\Debug\Team Store.csproj.CoreCompileInputs.cache
+D:\Freelancing\Team_Store_outlet\Team Store System\Login\obj\Debug\Login.exe
+D:\Freelancing\Team_Store_outlet\Team Store System\Login\obj\Debug\Login.pdb
+D:\Freelancing\Team_Store_outlet\Team Store System\Login\obj\Debug\Login.Forms.DashboardForm.resources
+D:\Freelancing\Team_Store_outlet\Team Store System\Login\obj\Debug\Login.Forms.ProductForm.resources

@@ -47,14 +47,14 @@
             this.login_btn.Name = "login_btn";
             this.login_btn.Size = new System.Drawing.Size(197, 56);
             this.login_btn.TabIndex = 0;
-            this.login_btn.Text = "Logein";
+            this.login_btn.Text = "Log-in";
             this.login_btn.UseVisualStyleBackColor = false;
             this.login_btn.Click += new System.EventHandler(this.login_btn_Click);
             // 
             // username_textBox
             // 
             this.username_textBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.username_textBox.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.username_textBox.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)), true);
             this.username_textBox.Location = new System.Drawing.Point(18, 252);
             this.username_textBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.username_textBox.Multiline = true;

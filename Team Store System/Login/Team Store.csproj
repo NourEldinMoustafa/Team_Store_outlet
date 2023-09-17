@@ -58,10 +58,22 @@
     <Compile Include="Forms\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\ProductForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ProductForm.Designer.cs">
+      <DependentUpon>ProductForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\DashboardForm.resx">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ProductForm.resx">
+      <DependentUpon>ProductForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -88,6 +100,132 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cart v2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconClearCart2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconCreditCard2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconDiscount2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconDollarSign2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconError.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconErrorBig.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconHome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconHome1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconHome2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconLogOut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconLogOut2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconManageProducts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconManageProducts2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconManageStaff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconManageStaff2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconManageStaff3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconManageStock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconManageStock2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconPOS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconPOS2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconReports.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconReports2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconShoppingCart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconShoppingCart2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconSuccess.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconWarning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LockIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PersonIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PersonIcon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\totalSales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transaction v3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transaction v4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transaction v5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transaction v6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transactions v2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transactions.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

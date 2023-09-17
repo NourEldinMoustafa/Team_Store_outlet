@@ -16,5 +16,23 @@ namespace Login.Forms
         {
             InitializeComponent();
         }
+
+        private void ProductPanel_Click(object sender, EventArgs e)
+        {
+            ProductPanel.BackColor = Color.White;
+            ProductLabel.ForeColor =  Color.FromArgb(0, 0, 64);
+            ProductpictureBox.BackColor = Color.FromArgb(0, 0, 64);
+
+            ProductForm productForm = new ProductForm();
+            productForm.TopLevel = false;
+            FillPanel.Controls.Add(productForm);
+
+            productForm.Size = FillPanel.Size;
+            productForm.Location = new Point(0, 0);
+            productForm.Show();
+
+        }
+
+      
     }
 }
