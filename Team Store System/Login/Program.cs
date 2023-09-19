@@ -15,6 +15,12 @@ namespace Login
         [STAThread]
         static void Main()
         {
+            //Screen primaryScreen = Screen.PrimaryScreen;
+            //int screenWidth = primaryScreen.Bounds.Width;
+            //int screenHeight = primaryScreen.Bounds.Height;
+
+            //MessageBox.Show($"Screen Width: {screenWidth} pixels" + $"Screen Height: {screenHeight} pixels");
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new DashboardForm());

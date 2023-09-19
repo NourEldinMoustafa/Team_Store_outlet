@@ -20,3 +20,5 @@ D:\Freelancing\Team_Store_outlet\Team Store System\Login\obj\Debug\Login.exe
 D:\Freelancing\Team_Store_outlet\Team Store System\Login\obj\Debug\Login.pdb
 D:\Freelancing\Team_Store_outlet\Team Store System\Login\obj\Debug\Login.Forms.DashboardForm.resources
 D:\Freelancing\Team_Store_outlet\Team Store System\Login\obj\Debug\Login.Forms.ProductForm.resources
+D:\Freelancing\Team_Store_outlet\Team Store System\Login\bin\Debug\Guna.UI2.dll
+D:\Freelancing\Team_Store_outlet\Team Store System\Login\obj\Debug\Team Store.csproj.CopyComplete

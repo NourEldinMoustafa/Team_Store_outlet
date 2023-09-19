@@ -21,18 +21,26 @@ namespace Login.Forms
         {
             ProductPanel.BackColor = Color.White;
             ProductLabel.ForeColor =  Color.FromArgb(0, 0, 64);
-            ProductpictureBox.BackColor = Color.FromArgb(0, 0, 64);
+            ProductPictureBox.BackColor = Color.FromArgb(0, 0, 64);
+            headlineLabel.Text = "الأصناف";
 
             ProductForm productForm = new ProductForm();
             productForm.TopLevel = false;
             FillPanel.Controls.Add(productForm);
-
+            //MessageBox.Show($"{FillPanel.Size}");
             productForm.Size = FillPanel.Size;
+
             productForm.Location = new Point(0, 0);
             productForm.Show();
 
         }
+        
+        private void LogoutPictureBox_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"{this.Width} , {this.Height} ");
 
-      
+            
+            this.Close();
+        }
     }
 }
